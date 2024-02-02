@@ -1,0 +1,59 @@
+@import url("variables.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{  
+    font-size: 15px;
+    margin: 0 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+h1{
+        font-size: 2.2rem;
+}
+
+h2, h3, h4, h5, h6{
+    font-size: 1.7rem;
+}
+
+p, div, form, input{
+    font-size: 1.5rem;
+}
+
+span, label{
+    font-size: 0.75rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .links{
+    width: 95vw;
+    height: 5vh;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
+    align-items: end;
+    justify-content: space-around;
+    align-items: end;
+}
+
+nav .cart-container{
+    position: absolute;
+    width: 5vw;
+    /* background: salmon; */
+    right: 0;
+    top: 10px;
+    padding: 0 20px;
+    height: 5vh;
+    display: flex;
+    justify-content: end;
+}
+
+nav .cart-container i{
+    font-size: 2rem;
+}
+

@@ -31,13 +31,16 @@ nav{
     height: 8vh;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
-    background: burlywood;
+    background: #c3ddca;
 }
 
 nav .links a{
     text-decoration: none;
     font-size: 1rem;
+    align-items: center;
+    color: black;
 }
 
 nav .links a:visited{
@@ -52,6 +55,7 @@ nav .menu:visited{
 
 nav .menu{
     display: none;
+    color: black;
 }
 
 nav .categoria{
@@ -113,13 +117,32 @@ nav .cart-container i{
 }
 
 .producto .contenedor-imgs .img-grande{
-    background: url('../storage/images/categoria1/producto1-1.jpg') no-repeat center center;
-    background-size: cover;
-    width: 90%;
+    background-size:auto;
+    width: 100%;
     margin-left: 20px;
     padding: 0;
     grid-column: 2;
     grid-row: 1/span 4;
+}
+
+.producto .contenedor-imgs .img-grande1{
+    background: url('../storage/images/categoria1/producto1-1.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.producto .contenedor-imgs .img-grande2{
+    background: url('../storage/images/categoria1/producto2-1.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.producto .contenedor-imgs .img-grande3{
+    background: url('../storage/images/categoria1/producto3-1.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.producto .contenedor-imgs .img-grande4{
+    background: url('../storage/images/categoria1/producto4-1.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .producto .contenedor-imgs img{
@@ -130,6 +153,8 @@ nav .cart-container i{
 }
 
 /* hover */
+
+/* producto 1 */
 
 .contenedor-imgs > .img1:hover ~ .img-grande1{
     background: url('../storage/images/categoria1/producto1-1.jpg') no-repeat center center;
@@ -149,12 +174,76 @@ nav .cart-container i{
     background-size: cover;
 }
 
+
+/* producto 2*/
+
+.contenedor-imgs > .img1:hover ~ .img-grande2{
+    background: url('../storage/images/categoria1/producto2-1.jpg') no-repeat center center;
+    background-size: cover;
+}
+.contenedor-imgs > .img2:hover ~ .img-grande2{
+    background: url('../storage/images/categoria1/producto2-2.jpg') no-repeat center center;
+    background-size: cover;
+
+}
+.contenedor-imgs > .img3:hover ~ .img-grande2{
+    background: url('../storage/images/categoria1/producto2-3.jpg') no-repeat center center;
+    background-size: cover;
+}
+.contenedor-imgs > .img4:hover ~ .img-grande2{
+    background: url('../storage/images/categoria1/producto2-4.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/* producto 3*/
+
+.contenedor-imgs > .img1:hover ~ .img-grande3{
+    background: url('../storage/images/categoria1/producto3-1.jpg') no-repeat center center;
+    background-size: cover;
+}
+.contenedor-imgs > .img2:hover ~ .img-grande3{
+    background: url('../storage/images/categoria1/producto3-2.jpg') no-repeat center center;
+    background-size: cover;
+}
+.contenedor-imgs > .img3:hover ~ .img-grande3{
+    background: url('../storage/images/categoria1/producto3-3.jpg') no-repeat center center;
+    background-size: cover;
+}
+.contenedor-imgs > .img4:hover ~ .img-grande3{
+    background: url('../storage/images/categoria1/producto3-4.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/* producto 4 */
+
+.contenedor-imgs > .img1:hover ~ .img-grande4{
+    background: url('../storage/images/categoria1/producto4-1.jpg') no-repeat center center;
+    background-size: cover;
+}
+.contenedor-imgs > .img2:hover ~ .img-grande4{
+    background: url('../storage/images/categoria1/producto4-2.jpg') no-repeat center center;
+    background-size: cover;
+}
+.contenedor-imgs > .img3:hover ~ .img-grande4{
+    background: url('../storage/images/categoria1/producto4-3.jpg') no-repeat center center;
+    background-size: cover;
+}
+.contenedor-imgs > .img4:hover ~ .img-grande4{
+    background: url('../storage/images/categoria1/producto4-4.jpg') no-repeat center center;
+    background-size: cover;
+}
+
 .producto .detalle-producto{
     display: flex;
     flex-direction: column;
     justify-content :space-between;
     width: 80vw;
     padding-right: 100px;
+}
+
+.producto .rating i{
+    font-size: 2rem;
+    color: #F28585;
 }
 
 .producto .detalle-producto .precios{
@@ -167,6 +256,7 @@ nav .cart-container i{
 .producto .detalle-producto button{
     margin-bottom: 50px;
     width: 150px;
+    background-color: #c3ddca;
 }
 
 /* responsive */
@@ -186,7 +276,6 @@ nav .cart-container i{
         left: 0px;
         top: 6vh;
         width: 100%;
-        background-color: wheat;
         clip-path: circle(0% at top left);
         transition: clip-path 0.4;
         height: 40vh;

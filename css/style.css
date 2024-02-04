@@ -120,6 +120,26 @@ nav .cart-container i{
     height: 150px;
 }
 
+/* hover */
+
+.contenedor-imgs > .img1:hover ~ .img-grande1{
+    background: url('../storage/images/categoria1/producto1-1.jpg') no-repeat center center;
+    background-size: cover;
+}
+.contenedor-imgs > .img2:hover ~ .img-grande1{
+    background: url('../storage/images/categoria1/producto1-2.jpg') no-repeat center center;
+    background-size: cover;
+
+}
+.contenedor-imgs > .img3:hover ~ .img-grande1{
+    background: url('../storage/images/categoria1/producto1-3.jpg') no-repeat center center;
+    background-size: cover;
+}
+.contenedor-imgs > .img4:hover ~ .img-grande1{
+    background: url('../storage/images/categoria1/producto1-4.jpg') no-repeat center center;
+    background-size: cover;
+}
+
 .producto .detalle-producto{
     display: flex;
     flex-direction: column;

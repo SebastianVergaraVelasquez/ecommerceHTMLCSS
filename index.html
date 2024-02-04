@@ -11,13 +11,13 @@
 <body>
     <header>
         <nav>
-            <div class="menu">
+            <a href="#menu" class="menu">
                 <i class='bx bx-menu'></i>
-            </div>
-            <div class="categoria1">Categoria 1</div>
-            <div class="links">
-                <a>Categoria 1</a>
-                <a>Categoria 2</a>
+            </a>
+            <div class="categoria categoria1">Adidas</div>
+            <div id="menu" class="links">
+                <a href="index.html">Adidas</a>
+                <a href="paginas/categoria2.html">Categoria 2</a>
                 <a>Categoria 3</a>
                 <a>Categoria 4</a>
                 <a>Categoria 5</a>
@@ -27,12 +27,12 @@
                 <a>Categoria 9</a>
                 <a>Categoria 10</a>
             </div>
-            <div class="cart-container">
+            <a  class="cart-container">
                 <i class='bx bx-cart'></i>
-            </div>
+            </a>
         </nav>
     </header>
-    <section class="producto" class="producto1">
+    <section class="producto producto1">
         <article class="imagenes-producto">
             <div class="contenedor-imgs">
                 <img src="storage/images/categoria1/producto1-1.jpg" alt="img1" class="img1">
@@ -41,9 +41,27 @@
                 <img src="storage/images/categoria1/producto1-4.jpg" alt="img4" class="img4">
                 <div class="img-grande img-grande1"></div>
             </div>
-            <!-- <div class="contenedor-img-grande">
-                <img src="storage/images/Adidas1-1.jpeg" alt="img">
-            </div> -->
+            <div class="detalle-producto">
+                <h2>Nombre del producto</h2>
+                <div>Estrellas</div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum recusandae magni laboriosam ab, praesentium itaque laudantium maxime debitis porro. Animi corporis quisquam assumenda modi natus dolor quibusdam adipisci explicabo voluptatum.</p>
+                <div class="precios">
+                    <h3>$ 100.00</h3>
+                    <h5><del>$ 99.99</del></h5>
+                </div>
+                <button>Obtener</button>
+            </div>
+            </article>
+    </section>
+    <section class="producto producto2">
+        <article class="imagenes-producto">
+            <div class="contenedor-imgs">
+                <img src="storage/images/categoria1/producto1-1.jpg" alt="img1" class="img1">
+                <img src="storage/images/categoria1/producto1-2.jpg" alt="img2" class="img2">
+                <img src="storage/images/categoria1/producto1-3.jpg" alt="img3" class="img3">
+                <img src="storage/images/categoria1/producto1-4.jpg" alt="img4" class="img4">
+                <div class="img-grande img-grande1"></div>
+            </div>
             <div class="detalle-producto">
                 <h2>Nombre del producto</h2>
                 <div>Estrellas</div>
@@ -57,5 +75,4 @@
             </article>
     </section>
 </body>
-
 </html>

@@ -279,6 +279,7 @@ nav .cart-container i{
         clip-path: circle(0% at top left);
         transition: clip-path 0.4;
         height: 40vh;
+        background-color:#eeb1b1;
     }
    
 

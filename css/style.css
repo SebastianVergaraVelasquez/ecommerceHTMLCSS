@@ -25,7 +25,7 @@ span, label{
     font-size: 0.75rem;
 }
 
-/* Modal */
+/* Modal producto */
 
 #modal{
     margin: auto;
@@ -60,6 +60,57 @@ span, label{
 
 #modal .contenido .agregar button{
     width: 200px;
+}
+
+/* Modal factura */
+
+#modal-factura{ 
+    margin: auto;
+    width: 700px;
+}
+
+#modal-factura .factura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#modal-factura .factura .contenedor{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#modal-factura .factura .contenedor img{ 
+    height: 150px;
+}
+
+#modal-factura .factura h4{
+    font-size: 1rem;
+} 
+
+#modal-factura .factura h3{
+    font-size: 1rem;
+}   
+
+#modal-factura .factura h5 del{
+    font-size: 0.9rem;
+}  
+
+#modal-factura .factura .contenedor .precios-factura{
+    display: flex;
+    font-size: 1rem;
+}
+
+#modal-factura .factura .total{
+    display: flex;
+    gap: 350px;
+}
+
+#modal-factura .factura .total button{
+    height: 30px;
+    width: 100px;
 }
 
 nav{
@@ -430,6 +481,46 @@ nav .cart-container i{
 
     #modal .contenido .agregar input{
         width: 150px;
+    }
+
+    /* Modal producto */
+
+    #modal-factura{
+        width: 80vw;
+        height: 70vh;
+    }
+
+    #modal-factura .factura .contenedor input{
+        width: 100px;
+    }
+
+    #modal-factura .factura .contenedor img{ 
+        height: 90px;
+        width: 80px;
+    }
+
+    #modal-factura .factura h4{
+        font-size: 0.8rem;
+    } 
+    
+    #modal-factura .factura h3{
+        font-size: 0.7rem;
+    }   
+    
+    #modal-factura .factura h5 del{
+        font-size: 0.5rem;
+    }  
+
+    #modal-factura .factura .total{
+        display: flex;
+        gap: 35vw;
+    }
+    #modal-factura .factura .total div{
+        font-size: 1rem;
+    }
+
+    #modal-factura .factura .total div p,button{
+        font-size: 0.8rem;
     }
 }
 

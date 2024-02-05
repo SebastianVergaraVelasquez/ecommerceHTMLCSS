@@ -29,9 +29,65 @@
                 <a>New Balance</a>
                 <a>Vans</a>
             </div>
-            <a class="cart-container">
+            <a id="btn-abrir-modal-factura" class="cart-container">
                 <i class='bx bx-cart'></i>
             </a>
+            <dialog id="modal-factura">
+                <div class="factura">
+                    <h3 style="font-size: 1.5rem;">Detalles</h3>
+                    <div class="contenedor">
+                        <img src="storage/images/categoria1/producto1-1.jpg">
+                        <div class="nombre">
+                            <h4>Adidas Running</h4>
+                            <input type="text" placeholder="$"> 
+                        </div>
+                        <div class="precios-factura">
+                            <h3>$ 200.000</h3>
+                            <h5><del>$ 250.000</del></h5>
+                        </div>
+                    </div>
+                    <div class="contenedor">
+                        <img src="storage/images/categoria1/producto2-1.jpg">
+                        <div class="nombre">
+                            <h4>Adidas sky</h4>
+                            <input type="text" placeholder="$"> 
+                        </div>
+                        <div class="precios-factura">
+                            <h3>$ 225.000</h3>
+                            <h5><del>$ 275.000</del></h5>
+                        </div>
+                    </div>
+                    <div class="contenedor">
+                        <img src="storage/images/categoria1/producto3-1.jpg">
+                        <div class="nombre">
+                            <h4>Adidas Lifestyle</h4>
+                            <input type="text" placeholder="$"> 
+                        </div>
+                        <div class="precios-factura">
+                            <h3>$ 250.000</h3>
+                            <h5><del>$ 300.000</del></h5>
+                        </div>
+                    </div>
+                    <div class="contenedor">
+                        <img src="storage/images/categoria1/producto4-1.jpg">
+                        <div class="nombre">
+                            <h4>Adidas Spirit</h4>
+                            <input type="text" placeholder="$"> 
+                        </div>
+                        <div class="precios-factura">
+                            <h3>$ 275.000</h3>
+                            <h5><del>$ 325.000</del></h5>
+                        </div>
+                    </div>
+                    <div class="total">
+                        <div>Total</div>
+                        <div>
+                            <p>$Mucha plata</p>
+                            <button id="btn-cerrar-modal-factura">Pagar</button>
+                        </div>
+                    </div>
+                </div>
+            </dialog>
         </nav>
     </header>
     <section class="producto producto1">
@@ -83,7 +139,6 @@
                     <button id="btn-cerrar-modal">Agregar</button>
                 </div>
             </div>
-            
         </dialog>
     </section>
     <section class="producto producto2">

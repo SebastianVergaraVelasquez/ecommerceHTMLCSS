@@ -26,9 +26,10 @@ El menú móvil de esta página web se despliega al hacer clic en el botón enco
 
 Versión de escritorio
 
-
+![zapatos web](https://github.com/SebastianVergaraVelasquez/ecommerceHTMLCSS/assets/97114145/64c9661f-94c1-4a46-ad02-93cfa632d293)
 
 Versión móvil
 
+![zapatos movil](https://github.com/SebastianVergaraVelasquez/ecommerceHTMLCSS/assets/97114145/24eb16c1-22a3-4eac-9ab7-b57e06af6541)
 
 

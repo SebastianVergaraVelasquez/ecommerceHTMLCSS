@@ -66,7 +66,7 @@ span, label{
 
 #modal-factura{ 
     margin: auto;
-    width: 700px;
+    width: 600px;
 }
 
 #modal-factura .factura{
@@ -74,6 +74,7 @@ span, label{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
 }
 
 #modal-factura .factura .contenedor{
@@ -101,11 +102,16 @@ span, label{
 #modal-factura .factura .contenedor .precios-factura{
     display: flex;
     font-size: 1rem;
+    gap: 30px;
+}
+
+#modal-factura .factura .contenedor .nombre input{
+    width: 12vw;
 }
 
 #modal-factura .factura .total{
     display: flex;
-    gap: 350px;
+    gap: 14vw;
 }
 
 #modal-factura .factura .total button{
@@ -483,11 +489,21 @@ nav .cart-container i{
         width: 150px;
     }
 
-    /* Modal producto */
+    /* Modal factura */
 
     #modal-factura{
         width: 80vw;
         height: 70vh;
+    }
+
+    #modal-factura .factura{
+        width: 80vw;
+        height: 70vh;
+        padding: 5px;
+    }
+
+    #modal-factura .factura .contenedor{
+        width: 100%;
     }
 
     #modal-factura .factura .contenedor input{
@@ -496,7 +512,7 @@ nav .cart-container i{
 
     #modal-factura .factura .contenedor img{ 
         height: 90px;
-        width: 80px;
+        width: 50px;
     }
 
     #modal-factura .factura h4{
@@ -504,7 +520,9 @@ nav .cart-container i{
     } 
     
     #modal-factura .factura h3{
-        font-size: 0.7rem;
+        position: relative;
+        font-size: 0.5rem;
+        top: 15px;
     }   
     
     #modal-factura .factura h5 del{
@@ -513,7 +531,7 @@ nav .cart-container i{
 
     #modal-factura .factura .total{
         display: flex;
-        gap: 35vw;
+        gap: 30vw;
     }
     #modal-factura .factura .total div{
         font-size: 1rem;
@@ -521,6 +539,15 @@ nav .cart-container i{
 
     #modal-factura .factura .total div p,button{
         font-size: 0.8rem;
+    }
+
+    #modal-factura .factura .contenedor .precios-factura{
+        gap: 20px;
+    }
+
+    #modal-factura .factura .contenedor .nombre input{
+        width: 30vw;
+        height: 20px;
     }
 }
 

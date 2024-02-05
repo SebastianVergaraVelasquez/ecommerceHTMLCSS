@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <title>Document</title>
+    <script src="js/main.js" defer></script>
+    <title>Imitaciones 10/10</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -27,7 +29,7 @@
                 <a>New Balance</a>
                 <a>Vans</a>
             </div>
-            <a  class="cart-container">
+            <a class="cart-container">
                 <i class='bx bx-cart'></i>
             </a>
         </nav>
@@ -49,14 +51,40 @@
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum recusandae magni laboriosam ab, praesentium itaque laudantium maxime debitis porro. Animi corporis quisquam assumenda modi natus dolor quibusdam adipisci explicabo voluptatum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum recusandae magni laboriosam ab,
+                    praesentium itaque laudantium maxime debitis porro. Animi corporis quisquam assumenda modi natus
+                    dolor quibusdam adipisci explicabo voluptatum.</p>
                 <div class="precios">
                     <h3>$ 200.000</h3>
                     <h5><del>$ 250.000</del></h5>
                 </div>
-                <button>Obtener</button>
+                <button id="btn-abrir-modal">Obtener</button>
             </div>
-            </article>
+        </article>
+        <dialog id="modal">
+            <img src="storage/images/categoria1/producto1-1.jpg" alt="img1" class="imgModalP1">
+            <div class="contenido">
+                <h2>Adidas Running</h2>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum recusandae magni laboriosam ab,
+                    praesentium itaque laudantium maxime debitis porro. Animi corporis quisquam assumenda modi natus
+                    dolor quibusdam adipisci explicabo voluptatum.</p>
+                <div class="precios-modal">
+                    <h3>$ 200.000</h3>
+                    <h5><del>$ 250.000</del></h5>
+                </div>
+                <div class="agregar">
+                    <input type="text" placeholder="Cantidad">
+                    <button id="btn-cerrar-modal">Agregar</button>
+                </div>
+            </div>
+            
+        </dialog>
     </section>
     <section class="producto producto2">
         <article class="imagenes-producto">
@@ -75,14 +103,16 @@
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum recusandae magni laboriosam ab, praesentium itaque laudantium maxime debitis porro. Animi corporis quisquam assumenda modi natus dolor quibusdam adipisci explicabo voluptatum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum recusandae magni laboriosam ab,
+                    praesentium itaque laudantium maxime debitis porro. Animi corporis quisquam assumenda modi natus
+                    dolor quibusdam adipisci explicabo voluptatum.</p>
                 <div class="precios">
                     <h3>$ 225.000</h3>
                     <h5><del>$ 275.000</del></h5>
                 </div>
                 <button>Obtener</button>
             </div>
-            </article>
+        </article>
     </section>
     <section class="producto producto3">
         <article class="imagenes-producto">
@@ -101,40 +131,45 @@
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum recusandae magni laboriosam ab, praesentium itaque laudantium maxime debitis porro. Animi corporis quisquam assumenda modi natus dolor quibusdam adipisci explicabo voluptatum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum recusandae magni laboriosam ab,
+                    praesentium itaque laudantium maxime debitis porro. Animi corporis quisquam assumenda modi natus
+                    dolor quibusdam adipisci explicabo voluptatum.</p>
                 <div class="precios">
                     <h3>$ 250.000</h3>
                     <h5><del>$ 300.000</del></h5>
                 </div>
                 <button>Obtener</button>
             </div>
-            </article>
+        </article>
     </section>
     <section class="producto producto4>
-        <article class="imagenes-producto">
-            <div class="contenedor-imgs">
-                <img src="storage/images/categoria1/producto4-1.jpg" alt="img1" class="img1">
-                <img src="storage/images/categoria1/producto4-2.jpg" alt="img2" class="img2">
-                <img src="storage/images/categoria1/producto4-3.jpg" alt="img3" class="img3">
-                <img src="storage/images/categoria1/producto4-4.jpg" alt="img4" class="img4">
-                <div class="img-grande img-grande4"></div>
+        <article class=" imagenes-producto">
+        <div class="contenedor-imgs">
+            <img src="storage/images/categoria1/producto4-1.jpg" alt="img1" class="img1">
+            <img src="storage/images/categoria1/producto4-2.jpg" alt="img2" class="img2">
+            <img src="storage/images/categoria1/producto4-3.jpg" alt="img3" class="img3">
+            <img src="storage/images/categoria1/producto4-4.jpg" alt="img4" class="img4">
+            <div class="img-grande img-grande4"></div>
+        </div>
+        <div class="detalle-producto">
+            <h2>Adidas Spirit</h2>
+            <div class="rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
             </div>
-            <div class="detalle-producto">
-                <h2>Adidas Spirit</h2>
-                <div class="rating">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum recusandae magni laboriosam ab, praesentium itaque laudantium maxime debitis porro. Animi corporis quisquam assumenda modi natus dolor quibusdam adipisci explicabo voluptatum.</p>
-                <div class="precios">
-                    <h3>$ 275.000</h3>
-                    <h5><del>$ 325.000</del></h5>
-                </div>
-                <button>Obtener</button>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum recusandae magni laboriosam ab,
+                praesentium itaque laudantium maxime debitis porro. Animi corporis quisquam assumenda modi natus dolor
+                quibusdam adipisci explicabo voluptatum.</p>
+            <div class="precios">
+                <h3>$ 275.000</h3>
+                <h5><del>$ 325.000</del></h5>
             </div>
-            </article>
+            <button>Obtener</button>
+        </div>
+        </article>
     </section>
 </body>
+
 </html>

@@ -25,6 +25,43 @@ span, label{
     font-size: 0.75rem;
 }
 
+/* Modal */
+
+#modal{
+    margin: auto;
+    width: 30vw;
+}
+
+#modal .imgModalP1{
+    width: 100%;
+    height: 700px;
+}
+
+#modal .contenido{
+    margin-top: -200px;
+    padding: 20px;
+}
+
+#modal .contenido p{
+    font-size: 1rem;
+}
+
+#modal .contenido .precios-modal{
+    display: flex;
+    gap: 20px;
+}
+
+#modal .contenido .agregar{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 30px;
+}
+
+#modal .contenido .agregar button{
+    width: 200px;
+}
+
 nav{
     position: fixed;
     top:0;
@@ -262,7 +299,7 @@ nav .cart-container i{
 /* responsive */
 
 @media(max-width:768px){
-
+    
     nav{
         right: 0;
         width: 100%;
@@ -363,6 +400,36 @@ nav .cart-container i{
         font-size: 2rem;
         position: relative;
         top: -5px
+    }
+
+    #modal{
+        width: 80vw;
+    }
+
+    #modal .imgModalP1{
+        width: 100%;
+        height: 400px;
+    }
+
+    #modal .contenido{
+        margin-top: -120px;
+    }
+
+    #modal .contenido p{
+        font-size: 0.7rem;
+    }
+
+    #modal .contenido .agregar{
+        font-size: 1rem;
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        gap: 5px;
+        margin-left: 0vw;
+    }
+
+    #modal .contenido .agregar input{
+        width: 150px;
     }
 }
 
